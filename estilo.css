@@ -115,7 +115,7 @@ header a:hover{
     width: 375px;
 }
 .tours{
-    background:linear-gradient(#261c18,#352722,#494267,#5a527f );
+    background:linear-gradient(#261c18,#352722,#5a527f );
     height: 255vh;
 }
 .descTour{
@@ -255,7 +255,7 @@ header a:hover{
 
 .contact{
     height: 100vh;
-    background:linear-gradient(#1e2237,#332e49);
+    background:linear-gradient(#59517d,#1e2237,#121521);
 }
 
 
@@ -271,14 +271,14 @@ header a:hover{
     font-size: 75px;
 }
 .contContact p{
-    padding-top: 25px;
+    padding-top: 18px;
     font-size: 17px;
     line-height: 26px;
-    padding-bottom: 40px;
+    padding-bottom: 25px;
 }
 
 .formulario{
-    width: 40%;
+    width: 42%;
     margin: 0 auto;
     border-radius: 10px;
     box-shadow: 3px 3px 20px rgb(0, 0, 0);
@@ -309,15 +309,15 @@ header a:hover{
 .formulario input{
     color: rgb(255, 255, 255);
     font-size: 16px;
-    background:none;
-    border:1px solid white;
+    background: none;
+    border-style: groove;
     border-radius: 8px;
 }
 
 .formulario button{
     cursor: pointer;
     background-color: white;
-    color:#FFD700;
+    color:#1e2237;
     margin: 0 auto;
     margin-top: 34px;
     width: 32%;
@@ -332,7 +332,41 @@ header a:hover{
 }
 
 .formulario button:hover{
-    background-color:#FFD700;
+    background-color:#1e2237;
     color:white;
 }
 
+.redes{
+    height: 21vh;
+    background-color: #312b4f;
+}
+.contRedes{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+    height: 11vh;
+}
+
+.contRedes i{
+    font-size: 22px;
+    padding-top: 32px;
+    color: white;
+    transition-property:color;
+    transition-duration: 0.5s;
+}
+.contRedes i:hover{
+    color: black;
+}
+.copy{
+    height: 10vh;
+    background-color: #121521;
+    display: flex;
+    justify-content: center;
+}
+
+.copy p{
+    padding-top: 27px;
+    font-size: 14px;
+}
