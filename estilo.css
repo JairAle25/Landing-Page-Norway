@@ -697,8 +697,8 @@ p{
     }
     /*cambie el tamaño del formulario*/
     .formulario{
-        width: 90%;
-        padding: 25px 5px;
+        width: 80%;
+        padding: 25px 20px;
     }
     /*los pongo uno abajo del otro*/
     .formulario .deLado{
