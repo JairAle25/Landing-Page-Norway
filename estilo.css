@@ -433,6 +433,89 @@ p{
     }  
 }
 
+@media(max-width:768px){
+    /*saco las imagenes del hero*/
+    .hero .imgHero{
+        display: none;
+    }
+    /*muevo el contenido del hero*/
+    .contHero{
+        left: 10%;
+    }
+    /*muevo de el nav*/
+    .hero nav{
+        left: 10%;
+    }
+    /*hago mas larga la seccion*/
+    .tours{
+        height: 250vh;
+    }
+    /*agrando la descripcion*/
+    .descTour{
+        width: 85%;
+    }
+    /*hago mas el espacio de la informacion*/
+    .tours .info{
+        width: 50%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    /*cambio el tamaño del parrafo*/
+    .tours .info p{
+        width: 95%;
+    }
+    /*cambio del tamaño y espaciado de las imagenes*/
+    .imgTours{
+        width: 50%;
+    }
+    /*cambio del tamaño y espaciado de las imagenes*/
+    .imgTour2{
+        width: 50%;
+    }
+    /*cambio del tamaño y espaciado de las imagenes*/
+    .imgTour3{
+        width: 50%;
+    }
+    /*posicione las imagenes de todos los lugares*/
+    .img1{
+        width: 225px;
+        left: 34%;
+        top: 37%;
+    }
+    /*posicione las imagenes de todos los lugares*/
+    .img2{
+        width: 225px;
+        left: 3%;
+        top: 23%;
+    }
+    /*posicione las imagenes de todos los lugares*/
+    .img3{
+        width: 225px;
+        left: 3%;
+        top: 51%;
+    }
+    /*agrande el contenido del about*/
+    .contAbout{
+        left: 17%;
+        top: 12%;
+    }
+    /*cambio el tamaño de la seccion*/
+    .contContact{
+        width: 70%;
+    }
+    /*cambio el tamaño del formulario*/
+    .formulario{
+        width: 70%;
+    }
+    /*los pongo uno abajo del otro*/
+    .formulario .deLado{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/*Media Queri para mobiles*/
 @media(max-width:480px){
     /*oculto los link del header*/
     header nav a{
